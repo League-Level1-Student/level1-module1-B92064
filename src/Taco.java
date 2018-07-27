@@ -8,16 +8,16 @@ public static void main(String[] args) {
 	
 	
 }
-private void getMeat(){
-	
+public String getMeat(){
+	return meat;
 }
-private void getSauce() {
-	
+public String getSauce() {
+	return sauce;
 }
-private void setMeat(String meat) {
-	meat = new String();
+public void setMeat(String meat) {
+ this.meat = meat;
 }
-private void setSauce(String sauce) {
-	sauce = new String();
+public void setSauce(String sauce) {
+this.sauce = sauce;
 }
 }
